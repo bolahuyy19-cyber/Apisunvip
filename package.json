@@ -1,0 +1,24 @@
+{
+  "name": "sunwin-data-stream",
+  "version": "1.0.0",
+  "description": "Sunwin Tai Xiu WebSocket Data API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "sunwin",
+    "taixiu",
+    "websocket",
+    "api"
+  ],
+  "author": "cskh_huydaixu",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "network": "^0.6.0",
+    "ws": "^8.17.0"
+  }
+}
